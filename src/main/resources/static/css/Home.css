@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+body{
+    background: black !important;
+
+}
+#theWeeknd{
+    font-size: 50px;
+    font-family: "Notable", sans-serif;
+    color: #920521;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 45px;
+    margin-bottom: 80px;
+}
+
+.box_photo1{
+    color: #152781;
+    font-size: 28px;
+    letter-spacing: 5px;
+    display: flex;
+    margin-bottom: 10%;
+}
+.box_photo1 > img{
+    flex: 1 1 50%;
+}
+.box_photo1 > div{
+    flex: 1 1 50%;
+}
+.box_photo1 p{
+    line-height: 1.3;
+    margin: 0;
+    margin-left: 6%;
+    padding-left: 4%;
+    border-left: 5px #152781 solid;
+    padding-right: 10%;
+}
+
+.box_photo2{
+    color: #152781;
+    font-size: 28px;
+    letter-spacing: 5px;
+    display: flex;
+    margin-bottom: 10%;
+}
+.box_photo2 > img{
+    flex: 1 1 53%;
+}
+.box_photo2 > div{
+    flex: 1 1 47%;
+}
+.box_photo2 p{
+    line-height: 1.3;
+    margin: 0;
+    margin-right: 6%;
+    padding-right: 4%;
+    border-right: 5px #152781 solid;
+    text-align: right;
+}
+
+.box_photo3{
+    color: #152781;
+    font-size: 29px;
+    letter-spacing: 5px;
+    display: flex;
+    margin-bottom: 10%;
+}
+.box_photo3 > img{
+    flex: 1 1 42%;
+}
+.box_photo3 > div{
+    flex: 1 1 55%;
+}
+.box_photo3 p{
+    line-height: 1.6;
+    margin: 0;
+    margin-left: 6%;
+    padding-left: 4%;
+    border-left: 5px #152781 solid;
+    padding-right: 13%;
+}
+
+
+
+
+
+
+
+

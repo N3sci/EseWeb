@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+header {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: #000 !important; /* Match background color */
+}
+
+header h1 a {
+    color: #FF0000;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+header h1 a:hover {
+    color: #FF4D4D; /* Lighter red on hover */
+}
+
+.borderCurrentPage a {
+    border-bottom: 2px solid #FF0000;
+    padding-bottom: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    margin-bottom: 50px;
+}
+footer > div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: #920521;
+    font-size: 15px;
+    margin-inline: 10px;
+    font-family: sans-serif;
+}
+footer a:hover{
+    color: #bf0728;
+}
+.icon{
+    font-size: 20px;
+    color: #920521;
+}
+.icon:hover{
+    color: #bf0728;
+}

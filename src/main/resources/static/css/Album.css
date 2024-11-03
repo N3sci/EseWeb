@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000 !important;
+    color: #FF0000;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+}
+
+.container h2 {
+    color: #FF0000;
+}
+
+.container .form-label {
+    color: #FF0000;
+}
+
+.container .form-check-label {
+    color: #FF4D4D;
+}
+
+.container input, .container button {
+    background-color: #333;
+    border: 1px solid #FF0000;
+    color: #FF0000;
+}
+
+.container button {
+    background-color: #FF0000;
+    color: #000;
+    transition: background-color 0.3s;
+}
+
+.container button:hover {
+    background-color: #FF4D4D;
+}
+

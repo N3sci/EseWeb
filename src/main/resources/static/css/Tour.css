@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000 !important;
+    color: #FF0000;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+
+#myTable {
+    margin: 2rem auto;
+    width: 90%;
+    color: #FF0000;
+    background-color: #1a1a1a;
+    border: 1px solid #FF0000;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#myTable th, #myTable td {
+    padding: 0.75rem;
+    text-align: center;
+    border: 1px solid #FF0000;
+}
+
+#myTable thead {
+    background-color: #333;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+#myTable tbody tr {
+    transition: background-color 0.3s;
+}
+
+#myTable tbody tr:hover {
+    background-color: #333;
+}
+
+#myTable .bi-trash3-fill {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+#myTable .bi-trash3-fill:hover {
+    color: #FF4D4D;
+}
+
+button {
+    background-color: #FF0000;
+    color: #000;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FF4D4D;
+}
+
+input[type="text"], input[type="email"] {
+    width: 30%;
+    max-width: 250px;
+    margin: 10px 5px;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border: 1px solid #FF0000;
+    color: #FF0000;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder {
+    color: #FF4D4D;
+    opacity: 0.8;
+}
+
+button#submit-button {
+    padding: 10px 20px;
+    background-color: #FF0000;
+    color: #000;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    max-width: 150px;
+}
+
+button#submit-button:hover {
+    background-color: #FF4D4D;
+}
+
+/* Center form section */
+div input[type="text"], div input[type="email"], div button#submit-button {
+    display: inline-block;
+}
+
+div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    input[type="text"], input[type="email"] {
+        width: 45%;
+    }
+
+    button#submit-button {
+        width: auto;
+    }
+}
